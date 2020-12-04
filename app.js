@@ -11,7 +11,6 @@ app.post('/api/v2/heartbeat', (req, res) => {
   console.log(`api_key = ${req.headers.api_key}`);
   console.log(`signature = ${req.headers.signature}`);
   console.log(`content-type = ${req.headers['content-type']}`);
-
   console.log(req.body);
   //   var dt = dateTime.create();
   //   var formatted = dt.format('Y-m-d H:M:S');
