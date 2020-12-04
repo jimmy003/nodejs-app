@@ -14,7 +14,6 @@ app.post('/api/v2/heartbeat', (req, res) => {
   console.log(req.body);
   //   var dt = dateTime.create();
   //   var formatted = dt.format('Y-m-d H:M:S');
-  //   console.log(formatted);
 
   var ed = new Date();
   var sd = new Date();
